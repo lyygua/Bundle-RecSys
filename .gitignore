@@ -1,0 +1,41 @@
+# Local datasets, including raw reviews, metadata and extracted subsets
+/dataset/
+/data/
+/recbole/dataset_example/
+*.jsonl
+*.jsonl.gz
+
+# Experiment artifacts
+/saved*/
+/log/
+/logs/
+/log_tensorboard/
+/outputs/
+/results/
+/wandb/
+/ray_log*
+*.pth
+*.pt
+*.ckpt
+*.log
+/*_top20_top50.md
+
+# Python, build and editor files
+__pycache__/
+*.py[cod]
+*.lprof
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+docs/build/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key

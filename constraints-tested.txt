@@ -1,0 +1,22 @@
+# Direct dependency versions used for local validation on Python 3.11.14.
+# Apply with: python -m pip install -r requirements.txt -c constraints-tested.txt
+torch==2.10.0
+numpy==1.26.4
+scipy==1.17.1
+hyperopt==0.2.5
+pandas==2.2.3
+tqdm==4.67.3
+scikit-learn==1.8.0
+pyyaml==6.0.3
+colorlog==4.7.2
+colorama==0.4.4
+tensorboard==2.20.0
+thop==0.1.1.post2209072238
+ray==2.6.3
+tabulate==0.10.0
+plotly==6.6.0
+texttable==1.7.0
+psutil==7.2.2
+setuptools==79.0.1
+pytest==9.1.1
+build==1.6.1

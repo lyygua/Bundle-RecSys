@@ -1,0 +1,2 @@
+recursive-include recbole/properties *
+include README.md LICENSE UPSTREAM.md
